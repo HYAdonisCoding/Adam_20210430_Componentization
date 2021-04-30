@@ -14,6 +14,7 @@
 		668DE8E8263BAEB300F06AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668DE8E7263BAEB300F06AC7 /* Assets.xcassets */; };
 		668DE8EB263BAEB300F06AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668DE8E9263BAEB300F06AC7 /* LaunchScreen.storyboard */; };
 		668DE8EE263BAEB300F06AC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 668DE8ED263BAEB300F06AC7 /* main.m */; };
+		91B832EE371563A5E21A422E /* Pods_Adam_20210430_Componentization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E963C07A173BF414EB022E /* Pods_Adam_20210430_Componentization.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,9 @@
 		668DE8EA263BAEB300F06AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		668DE8EC263BAEB300F06AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		668DE8ED263BAEB300F06AC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77E963C07A173BF414EB022E /* Pods_Adam_20210430_Componentization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adam_20210430_Componentization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B368C102CB6C8E819F423FC /* Pods-Adam_20210430_Componentization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210430_Componentization.release.xcconfig"; path = "Target Support Files/Pods-Adam_20210430_Componentization/Pods-Adam_20210430_Componentization.release.xcconfig"; sourceTree = "<group>"; };
+		AEAD385C64771475F55963AB /* Pods-Adam_20210430_Componentization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210430_Componentization.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20210430_Componentization/Pods-Adam_20210430_Componentization.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B832EE371563A5E21A422E /* Pods_Adam_20210430_Componentization.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13192846B8D3E4FA38A3DC05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E963C07A173BF414EB022E /* Pods_Adam_20210430_Componentization.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		668DE8CF263BAEAE00F06AC7 = {
 			isa = PBXGroup;
 			children = (
 				668DE8DA263BAEAF00F06AC7 /* Adam_20210430_Componentization */,
 				668DE8D9263BAEAF00F06AC7 /* Products */,
+				D726E60ECE73F93F2FE0DD9C /* Pods */,
+				13192846B8D3E4FA38A3DC05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +91,16 @@
 			path = Adam_20210430_Componentization;
 			sourceTree = "<group>";
 		};
+		D726E60ECE73F93F2FE0DD9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEAD385C64771475F55963AB /* Pods-Adam_20210430_Componentization.debug.xcconfig */,
+				7B368C102CB6C8E819F423FC /* Pods-Adam_20210430_Componentization.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 668DE8F1263BAEB300F06AC7 /* Build configuration list for PBXNativeTarget "Adam_20210430_Componentization" */;
 			buildPhases = (
+				CC261E5E14C109882036FDFC /* [CP] Check Pods Manifest.lock */,
 				668DE8D4263BAEAF00F06AC7 /* Sources */,
 				668DE8D5263BAEAF00F06AC7 /* Frameworks */,
 				668DE8D6263BAEAF00F06AC7 /* Resources */,
+				BFF83AC0A28F47B844C9820B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +166,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFF83AC0A28F47B844C9820B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adam_20210430_Componentization/Pods-Adam_20210430_Componentization-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adam_20210430_Componentization/Pods-Adam_20210430_Componentization-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adam_20210430_Componentization/Pods-Adam_20210430_Componentization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC261E5E14C109882036FDFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adam_20210430_Componentization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		668DE8D4263BAEAF00F06AC7 /* Sources */ = {
@@ -288,6 +357,7 @@
 		};
 		668DE8F2263BAEB300F06AC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAD385C64771475F55963AB /* Pods-Adam_20210430_Componentization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +375,7 @@
 		};
 		668DE8F3263BAEB300F06AC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B368C102CB6C8E819F423FC /* Pods-Adam_20210430_Componentization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

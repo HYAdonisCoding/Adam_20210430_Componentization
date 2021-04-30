@@ -1,0 +1,6 @@
+framework module AEAnimations {
+  umbrella header "AEAnimations-umbrella.h"
+
+  export *
+  module * { export * }
+}

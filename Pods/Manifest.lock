@@ -1,0 +1,22 @@
+PODS:
+  - AEAnimations (0.1.0)
+  - AELogining (0.1.0):
+    - AEAnimations
+
+DEPENDENCIES:
+  - AEAnimations (from `Libs/AEAnimations`)
+  - AELogining (from `Libs/AELogining`)
+
+EXTERNAL SOURCES:
+  AEAnimations:
+    :path: Libs/AEAnimations
+  AELogining:
+    :path: Libs/AELogining
+
+SPEC CHECKSUMS:
+  AEAnimations: 1f36937bbe3b20cfd32626ef9c49b29a00bf74b1
+  AELogining: 41a5453160411aa64293e32ace2e8f9f598b2e4a
+
+PODFILE CHECKSUM: eb967fd60fb6204321270b6fd5742bc8e0068205
+
+COCOAPODS: 1.10.0

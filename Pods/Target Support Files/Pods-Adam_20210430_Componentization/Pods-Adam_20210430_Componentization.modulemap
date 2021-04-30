@@ -1,0 +1,6 @@
+framework module Pods_Adam_20210430_Componentization {
+  umbrella header "Pods-Adam_20210430_Componentization-umbrella.h"
+
+  export *
+  module * { export * }
+}

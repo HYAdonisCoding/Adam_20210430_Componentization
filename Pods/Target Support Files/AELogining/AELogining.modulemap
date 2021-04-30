@@ -1,0 +1,6 @@
+framework module AELogining {
+  umbrella header "AELogining-umbrella.h"
+
+  export *
+  module * { export * }
+}

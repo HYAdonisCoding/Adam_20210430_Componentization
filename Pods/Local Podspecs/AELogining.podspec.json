@@ -1,0 +1,27 @@
+{
+  "name": "AELogining",
+  "version": "0.1.0",
+  "summary": "A short description of AELogining.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/296786475@qq.com/AELogining",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "296786475@qq.com": "296786475@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/296786475@qq.com/AELogining.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AELogining/Classes/**/*",
+  "dependencies": {
+    "AEAnimations": [
+
+    ]
+  }
+}
