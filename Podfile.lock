@@ -2,21 +2,23 @@ PODS:
   - AEAnimations (0.1.0)
   - AELogining (0.1.0):
     - AEAnimations
+  - MGJRouter (0.10.0)
 
 DEPENDENCIES:
-  - AEAnimations (from `Libs/AEAnimations`)
-  - AELogining (from `Libs/AELogining`)
+  - AELogining
+  - MGJRouter (~> 0.10.0)
 
-EXTERNAL SOURCES:
-  AEAnimations:
-    :path: Libs/AEAnimations
-  AELogining:
-    :path: Libs/AELogining
+SPEC REPOS:
+  trunk:
+    - AEAnimations
+    - AELogining
+    - MGJRouter
 
 SPEC CHECKSUMS:
-  AEAnimations: 1f36937bbe3b20cfd32626ef9c49b29a00bf74b1
-  AELogining: 41a5453160411aa64293e32ace2e8f9f598b2e4a
+  AEAnimations: ac25cc97c4f0a288186263bece36766048e697ef
+  AELogining: 7b910a20a56c2a20371efe91b66801ab657e1517
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
 
-PODFILE CHECKSUM: eb967fd60fb6204321270b6fd5742bc8e0068205
+PODFILE CHECKSUM: dbbd9082489ea4b3ee0df1fe84531d15f985e3e3
 
 COCOAPODS: 1.10.0
